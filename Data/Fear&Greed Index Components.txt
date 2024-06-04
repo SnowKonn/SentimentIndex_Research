@@ -1,0 +1,31 @@
+Fear & Greed Index Components
+1. Market Momentum
+	- SPX Index - SPX Index Moving Average
+2. StockPrice Strength
+	- Net new 52-week highs and lows on the NYSE
+3. McClellan Volume Summation Index(Stock Price Breadth)
+4. Put and Call Option ratio
+5. VIX and its 50-day moving average
+6. Safe Haven Demand(Difference in 20-day stock and bond returns)
+7. Junk Bond Demand
+
+KOSPI ver Fear & Greed Index Components
+1. Market Momentum(퀀티로 다운)
+2. Stock Price Strength(직접 계산ㅜㅜ)
+3. Stock Price Breadth(퀀티 다운)
+4. Put and Call Option ratio(거래소 다운)
+5. VKOSPI and its 50-day moving average(블룸버그 다운)
+6. Safe Haven Demand(블룸버그 다운, 수익률 구하는거 어떻게 하는지 확인하기)
+7. Junk Bond Demand(Investment Grade - Junk bond)
+8. Export YoY(월별 데이터인데 10일 마다 나오는거 어떻게 처리할 지 고민해봐야 함, Qunatiwise?, Bloomberg?)
+9. 환율 Level 관련(Quantiwise)
+10. CDS Spread(bloomberg)
+11. 한국, 미국 금리 차이(quantiwise, bloomberg)
+12. 뉴스 심리 지수(quantiwise)
+
+1. 일단 2년을 기준으로 Greed & Fear Index 산출(적절한 변화율 로 변환 해줄 것)
+2. PCA로 적용 해보기(FG Index로 maximize 되는 선 적용 해보기)
+3. PLS로 적용해보기(내생각에는 3개월이나 6개월 기준 수익률이 적절 하다고 판단, 1개월은 노이즈가 많이 낄 것 같음)
+4. 해당하는 것들을 기준으로 Market Predict 성능 검증 해보기
+5. 순차적으로 성능이 검증이 되었으면 Cross Sectional한 측면에서 유의미한 결과가 나올 수 있는지 검증 해볼것
+6. 현재 국면을 판단하고 현재 수준이 어느정도 Greed & Fear Index 수준을 가지는지 이러한 경우에 수익률이 보통 어땟는지 확인 해볼 것
